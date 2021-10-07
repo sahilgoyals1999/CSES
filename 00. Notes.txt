@@ -1,0 +1,11 @@
+=>
+Sometimes the program should read a whole input line, possibly containing spaces.
+	string s;
+	getline(cin, s);
+
+=>
+If the amount of data is unknown, the following loop is useful:
+	while (cin >> x) {
+		// code
+	}
+This loop reads elements from the input one after another, until there is no more data available in the input.
